@@ -1,0 +1,14 @@
+
+body{
+    background-image: url("https://st3.depositphotos.com/4327059/13950/v/950/depositphotos_139503138-stock-illustration-colorful-up-hands-background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.archiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    color: tomato;
+}
