@@ -1,10 +1,40 @@
-
-body{
-    background-image: url("https://st3.depositphotos.com/4327059/13950/v/950/depositphotos_139503138-stock-illustration-colorful-up-hands-background.jpg");
+body {
+    background-image: url("https://cdn.leonardo.ai/users/62c89b5f-ebff-4aaf-92c7-bd55f27cc374/generations/b1659854-f1de-46d5-8d08-6bf5cc473d87/Leonardo_Diffusion_create_an_image_of_mountains_and_clouds_abo_0.jpg");
     background-attachment: fixed;
     background-size: cover;
+    padding: auto;
+    position: static;
 }
-.archiv{
+
+.cajaMaster {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.cajaUno {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    opacity: 50%;
+    background-color: black;
+}
+
+.cajaDos {
+    width: 50%;
+    height: 50%;
+    opacity: 50%;
+    filter: invert(100%);
+ }   
+img , .cajaUno{
+    border-radius: 10% 0% 0% 10% ;
+}
+
+
+.archiv {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
