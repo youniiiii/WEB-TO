@@ -42,3 +42,6 @@ img , .cajaUno{
     align-content: center;
     color: tomato;
 }
+.company::after{
+    content: " del tipo de donacion que desea realizar";
+}
