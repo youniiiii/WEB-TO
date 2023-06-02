@@ -1,9 +1,10 @@
-body {
+.body {
     background-image: url("https://cdn.leonardo.ai/users/62c89b5f-ebff-4aaf-92c7-bd55f27cc374/generations/b1659854-f1de-46d5-8d08-6bf5cc473d87/Leonardo_Diffusion_create_an_image_of_mountains_and_clouds_abo_0.jpg");
     background-attachment: fixed;
     background-size: cover;
     padding: auto;
     position: static;
+    
 }
 
 .cajaMaster {
@@ -66,4 +67,34 @@ body {
     border: none;
     cursor: pointer;
   }
+/*para que el back abarque todo*/ 
+html{   
+    height: 100%;
+}
+
+/* background del body*/
+.body_page{ 
+    background: rgb(58,177,233);
+    background: linear-gradient(70deg, rgba(58,177,233,1) 48%, rgba(43,139,200,1) 51%);
+    background-repeat: no-repeat;
+}
+
+
+.h1_page{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.p_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.img_page{
+    width: 50%;
+    height: 50%;
+}
   
