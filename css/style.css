@@ -1,69 +1,32 @@
-body {
-    background-image: url("https://cdn.leonardo.ai/users/62c89b5f-ebff-4aaf-92c7-bd55f27cc374/generations/b1659854-f1de-46d5-8d08-6bf5cc473d87/Leonardo_Diffusion_create_an_image_of_mountains_and_clouds_abo_0.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    padding: auto;
-    position: static;
-}
 
-.cajaMaster {
-    display: flex;
-    width: 100%;
-    height: auto;
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jost:wght@200&family=Roboto+Condensed&display=swap');
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Jost', sans-serif;
+}
+h1{font-family: 'Abril Fatface', cursive;}
+/* nav de  el form */
+nav{
+background-color: #0077c0;
+width: 100%;
+height:60px;
+}
+ol{
+  display: flex;
+  justify-content: space-between;
     align-items: center;
-    justify-content: center;
     flex-wrap: nowrap;
 }
-
-.cajaUno {
-    width: 50%;
-    height: 100%;
-    margin: auto;
-    opacity: 50%;
-    background-color: black;
+li{
+  color: aliceblue;
+  list-style: none;
+  margin: 0px 10px 10px 0px; 
 }
-
-.cajaDos {
-    width: 50%;
-    height: 50%;
-    opacity: 50%;
-    filter: invert(100%);
- }   
-img , .cajaUno{
-    border-radius: 10% 0% 0% 10% ;
+.listInicio{
+  display: flex;
+  
 }
-
-
-.archiv {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    color: tomato;
+.logo{
+  border-radius: 100%;
 }
-.company::after{
-    content: " del tipo de donacion que desea realizar";
-}
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-  }
-  
-  h1 {
-    color: #333;
-  }
-  
-  input[type="text"] {
-    padding: 10px;
-    font-size: 16px;
-  }
-  
-  button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
