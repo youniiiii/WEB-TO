@@ -9,6 +9,8 @@
     <meta name="author"
         content="jonatan mansilla,tadeo Saracho,araceli amachuy,nahir ponce,Estefani Gimeno,Nahuel Serpa,Jonathan Chambi" />
     <meta name="keywords" content="formulario ONG" />
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
     <title>formulario</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="shortcut icon" href="./img/icono-de-la-fundacion-hecho-con-canva.ico" type="image/x-icon">
@@ -23,6 +25,57 @@
         </ol>
     </nav>
 
+<main>
+   <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+    
+    <input type=hidden name="oid" value="00DHs000000Q2n0">
+    <input type=hidden name="retURL" value="./page/page.html">
+    
+    <label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+    
+    <label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+    
+    <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+    
+    <label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+    
+    <label for="mobile">Mobile</label><input  id="mobile" maxlength="40" name="mobile" size="20" type="text" /><br>
+    
+    <label for="country">Country</label><input  id="country" maxlength="40" name="country" size="20" type="text" /><br>
+    
+    <label for="city">City</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
+    
+    <label for="state">State/Province</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
+    
+    <label for="zip">Zip</label><input  id="zip" maxlength="20" name="zip" size="20" type="text" /><br>
+    
+    <label for="street">Street</label><textarea name="street"></textarea><br>
+    
+    <label for="salutation">Salutation</label><select  id="salutation" name="salutation"><option value="">--None--</option><option value="Mr.">Mr.</option>
+    <option value="Ms.">Ms.</option>
+    <option value="Mrs.">Mrs.</option>
+    <option value="Dr.">Dr.</option>
+    <option value="Prof.">Prof.</option>
+    </select><br>
+    
+    Type of Donation:<select  id="00NHs00000CXpwe" name="00NHs00000CXpwe" title="Type of Donation"><option value="">--None--</option><option value="Monetary">Monetary</option>
+    <option value="food">food</option>
+    <option value="clothes">clothes</option>
+    <option value="toys">toys</option>
+    </select><br>
+    
+    Type of Donor:<select  id="00NHs00000CXpwt" name="00NHs00000CXpwt" title="Type of Donor"><option value="">--None--</option><option value="Family">Family</option>
+    <option value="Company">Company</option>
+    </select><br>
+    
+    <label for="description">Description</label><textarea name="description"></textarea><br>
+    
+    <input type="submit" name="submit">
+    
+    </form> 
+</main>
+    
+    
 </body>
 
 </html>
