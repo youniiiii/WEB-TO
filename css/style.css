@@ -44,58 +44,27 @@ li{
     cursor: pointer;
   }
 
-  /*johnCH estuvo aqui*/
-  footer {
-    background-color: #f2f2f2;
-    padding: 20px 0;
-  }
+/*johnCH estuvo aqui*/
+
+footer {
+  background-color: transparent;
+  text-align: center;
+  padding: 20px;
+}
   
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-  }
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
   
-  .social-icons {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: flex-end; /* derecha */
-  }
+.footer-icons .left-icon {
+  margin-right: auto;
+}
   
-  .social-icons li {
-    margin-left: 10px; /* Añade un margen izquierdo a todos los iconos pero no el primero */
-  }
-  
-  .social-icons li:first-child {
-    margin-left: 0; /* saca el margen izquierdo del 1er icono */
-    margin-right: auto; /*el primer icono a la izquierda */
-  }
-  
-  .social-icons a {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-size: cover;
-  }
-  .icon-fundacion{
-    background-image: url('/img/logo\ de\ la\ fundacion\ hecho\ con\ canva.png');
-  }
-  
-  .icon-facebook {
-    background-image: url('/img/logoFacebook.png');
-  }
-  
-  .icon-twitter {
-    background-image: url('/img/logoTwitter.png');
-  }
-  
-  .icon-instagram {
-    background-image: url('/img/logoInstagram.png');
-  }
-  
-  .icon-linkedin {
-    background-image: url('/img/logoLinkedin.png');
-  }
-  
-  /*johnCH estuvo aqui*/
+.footer-icons img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+/*johnCH estuvo aqui*/
