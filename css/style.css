@@ -5,6 +5,19 @@
   padding: 0%;
   font-family: 'Jost', sans-serif;
 }
+/*agregado por johnCH para probar el footer*/
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+.cuerpo {
+  min-height: 100%;
+  margin-bottom: -100px;
+}
+/*agregado por johnCH para probar el footer*/
+
 h1{font-family: 'Abril Fatface', cursive;}
 /* nav de  el form */
 nav{
@@ -50,6 +63,7 @@ footer {
   background-color: transparent;
   text-align: center;
   padding: 20px;
+  height: 60px;
 }
   
 .footer-icons {
@@ -63,8 +77,8 @@ footer {
 }
   
 .footer-icons img {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   margin-right: 5px;
 }
 /*johnCH estuvo aqui*/
