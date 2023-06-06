@@ -5,9 +5,25 @@
   padding: 0%;
   font-family: 'Jost', sans-serif;
 }
+/*agregado por johnCH para probar el footer*/
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+.cuerpo {
+  min-height: 100%;
+  margin-bottom: -100px;
+}
+/*agregado por johnCH para probar el footer*/
 
-h1 {
-  font-family: 'Abril Fatface', cursive;
+h1{font-family: 'Abril Fatface', cursive;}
+/* nav de  el form */
+nav{
+background-color: #0077c0;
+width: 100%;
+height:60px;
 }
 
 /* nav de  el form */
@@ -34,90 +50,28 @@ li {
   display: flex;
 }
 
-h1 {
-  color: #333;
-}
-
-input[type="text"] {
-  padding: 10px;
-  font-size: 16px;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-}
-
-/*formulario xd*/
-.froms {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #02395c;
-
-}
-
 /*johnCH estuvo aqui*/
+
 footer {
-  background-color: #f2f2f2;
-  padding: 20px 0;
+  background-color: transparent;
+  text-align: center;
+  padding: 20px;
+  height: 60px;
 }
-
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.social-icons {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  
+.footer-icons {
   display: flex;
-  justify-content: flex-end;
-  /* derecha */
+  justify-content: space-between;
+  align-items: center;
 }
-
-.social-icons li {
-  margin-left: 10px;
-  /* Añade un margen izquierdo a todos los iconos pero no el primero */
-}
-
-.social-icons li:first-child {
-  margin-left: 0;
-  /* saca el margen izquierdo del 1er icono */
+  
+.footer-icons .left-icon {
   margin-right: auto;
-  /*el primer icono a la izquierda */
 }
-
-.social-icons a {
-  display: inline-block;
+  
+.footer-icons img {
   width: 30px;
   height: 30px;
-  background-size: cover;
+  margin-right: 5px;
 }
-
-.icon-fundacion {
-  background-image: url('/img/logo\ de\ la\ fundacion\ hecho\ con\ canva.png');
-}
-
-.icon-facebook {
-  background-image: url('/img/logoFacebook.png');
-}
-
-.icon-twitter {
-  background-image: url('/img/logoTwitter.png');
-}
-
-.icon-instagram {
-  background-image: url('/img/logoInstagram.png');
-}
-
-.icon-linkedin {
-  background-image: url('/img/logoLinkedin.png');
-}
-
 /*johnCH estuvo aqui*/
