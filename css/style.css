@@ -1,101 +1,123 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jost:wght@200&family=Roboto+Condensed&display=swap');
+
 * {
   margin: 0%;
   padding: 0%;
   font-family: 'Jost', sans-serif;
 }
-h1{font-family: 'Abril Fatface', cursive;}
-/* nav de  el form */
-nav{
-background-color: #0077c0;
-width: 100%;
-height:60px;
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
 }
-ol{
+
+/* nav de  el form */
+nav {
+  background-color: #0077c0;
+  width: 100%;
+  height: 60px;
+}
+
+ol {
   display: flex;
   justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;
+  align-items: center;
+  flex-wrap: nowrap;
 }
-li{
-  color:#1d242b;
+
+li {
+  color: #1d242b;
   list-style: none;
-  margin: 0px 10px 10px 0px; 
+  margin: 0px 10px 10px 0px;
 }
-.listInicio{
+
+.listInicio {
   display: flex;
 }
-  
-  h1 {
-    color: #333;
-  }
-  
-  input[type="text"] {
-    padding: 10px;
-    font-size: 16px;
-  }
-  
-  button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
 
-  /*johnCH estuvo aqui*/
-  footer {
-    background-color: #f2f2f2;
-    padding: 20px 0;
-  }
-  
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-  }
-  
-  .social-icons {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: flex-end; /* derecha */
-  }
-  
-  .social-icons li {
-    margin-left: 10px; /* Añade un margen izquierdo a todos los iconos pero no el primero */
-  }
-  
-  .social-icons li:first-child {
-    margin-left: 0; /* saca el margen izquierdo del 1er icono */
-    margin-right: auto; /*el primer icono a la izquierda */
-  }
-  
-  .social-icons a {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-size: cover;
-  }
-  .icon-fundacion{
-    background-image: url('/img/logo\ de\ la\ fundacion\ hecho\ con\ canva.png');
-  }
-  
-  .icon-facebook {
-    background-image: url('/img/logoFacebook.png');
-  }
-  
-  .icon-twitter {
-    background-image: url('/img/logoTwitter.png');
-  }
-  
-  .icon-instagram {
-    background-image: url('/img/logoInstagram.png');
-  }
-  
-  .icon-linkedin {
-    background-image: url('/img/logoLinkedin.png');
-  }
-  
-  /*johnCH estuvo aqui*/
+h1 {
+  color: #333;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/*formulario xd*/
+.froms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #02395c;
+
+}
+
+/*johnCH estuvo aqui*/
+footer {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  /* derecha */
+}
+
+.social-icons li {
+  margin-left: 10px;
+  /* Añade un margen izquierdo a todos los iconos pero no el primero */
+}
+
+.social-icons li:first-child {
+  margin-left: 0;
+  /* saca el margen izquierdo del 1er icono */
+  margin-right: auto;
+  /*el primer icono a la izquierda */
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+
+.icon-fundacion {
+  background-image: url('/img/logo\ de\ la\ fundacion\ hecho\ con\ canva.png');
+}
+
+.icon-facebook {
+  background-image: url('/img/logoFacebook.png');
+}
+
+.icon-twitter {
+  background-image: url('/img/logoTwitter.png');
+}
+
+.icon-instagram {
+  background-image: url('/img/logoInstagram.png');
+}
+
+.icon-linkedin {
+  background-image: url('/img/logoLinkedin.png');
+}
+
+/*johnCH estuvo aqui*/
