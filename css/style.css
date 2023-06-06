@@ -45,28 +45,79 @@ li {
 label {
   display: none;
 }
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-  }
-  
-  h1 {
-    color: #333;
-  }
-  
-  input[type="text"] {
-    padding: 10px;
-    font-size: 16px;
-  }
-  
-  button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
+
+input,
+textarea {
+  border: 3px solid #ffff;
+  text-align: center;
+  color: #ffff;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+textarea {
+  text-align: center center;
+  height: 30px;
+  width: 100%;
+  resize: none;
+}
+
+.selectores {
+  display: block;
+  background-color: transparent;
+  color: #ffff;
+  width: 70%;
+  border: 3px solid #ffff;
+  text-align: center;
+}
+
+::placeholder {
+  text-align: center;
+  color: #ffff;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btn {
+  background-color: #0077C0;
+  border: 2px solid #ffff;
+  border-radius: 30%;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.caja {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  height: 30%;
+  width: 100%;
+  margin:0%;
+}
+
+.cajauno {
+  width: auto;
+  border: 2px solid #ffff;
+  margin: 3%;
+}
+
+h2 {
+  margin: 1%;
+  padding: 2%;
+  border: 6px solid #ffff;
+}
+
+.cajados {
+  background-color: transparent;
+  border-radius: 100%;
+  margin: 3%;
+
+}
+
+img {
+  border-radius: 100%;
+}
 main{
   
 }
