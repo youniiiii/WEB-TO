@@ -1,32 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jost:wght@200&family=Roboto+Condensed&display=swap');
-
-* {
-  margin: 0%;
-  padding: 0%;
-  font-family: 'Jost', sans-serif;
-  background-color: #0077C0;
-  color: #ffff;
-}
-
-/*agregado por johnCH para probar el footer*/
-.cuerpo {
-  min-height: 100%;
-  margin-bottom: -100px;
-}
-
-/*agregado por johnCH para probar el footer*/
-
-h1 {
-  font-family: 'Abril Fatface', cursive;
-  text-transform: uppercase;
-  color: #ffff;
-}
-
-/* nav de  el form */
-nav {
-  background-color: #0077c0;
-  width: 100%;
-  height: 60px;
+body {
+    background-color: #003A84;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: auto;
+    position: static;
 }
 
 /* nav de  el form */
@@ -76,7 +53,6 @@ label {
 
 input,
 textarea {
-  width: 70%;
   border: 3px solid #ffff;
   text-align: center;
   color: #ffff;
@@ -151,41 +127,5 @@ li img , img {
   border-radius: 100%;
 }
 main{
-  display: flex;
-  justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  
 }
-/*johnCH estuvo aqui*/
-
-footer {
-  width: 100%;
-  background-color: transparent;
-  text-align: center;
-  height: 60px;
-  background-color: #003A84;
-}
-
-.footer-icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer-icons .left-icon {
-  margin-right: auto;
-}
-
-.footer-icons img {
-  width: 30px;
-  height: 30px;
-  filter: hue-rotate(360deg);
-}
-
-.finfooter,p,h3 {
-  color: #ffff;
-  width: 100%;
-  text-align: center;
-}
-
-/*johnCH estuvo aqui*/
