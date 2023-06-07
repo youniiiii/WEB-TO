@@ -9,8 +9,6 @@
     <meta name="author"
         content="jonatan mansilla,tadeo Saracho,araceli amachuy,nahir ponce,Estefani Gimeno,Nahuel Serpa,Jonathan Chambi" />
     <meta name="keywords" content="formulario ONG" />
-    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
-
     <title>formulario</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="shortcut icon" href="./img/icono-de-la-fundacion-hecho-con-canva.ico" type="image/x-icon">
@@ -29,74 +27,104 @@
     </nav>
 
     <main>
-        <div class="caja">
-            <div class="cajauno"><h2>Con el objetivo de recaudar fondos realizamos la organización de eventos sociales, culturales y deportivos y contamos con el acompañamiento de colaboradores, quienes unen sus esfuerzos para hacerlos posibles.</h2></div>
-            <div class="cajados"><img src="https://trello.com/1/cards/64754beca91a2e82e5169edf/attachments/647e69932c75ce915032bcd3/previews/647e69942c75ce915032bdfb/download/imagen.png" alt="ong"></div>
+        <div id="off" class="on none  main_page">
+            <div class="div_page">
+                ¡Gracias por donar! Tu colaboración ayuda a muchas personas.
+            </div>
+            <div class="div2_page">
+                <img src="./img/carta.png" />
+                <div class="txt_page">
+                    <p class="p_page">
+                        Su formulario fue enviado con <br>
+                        éxito ¡Para averiguar más sobre <br>
+                        la fundación puedes chequear <br>
+                        nuestras redes sociales! <br>
+                        <br>
+                        A la brevedad nos <br>
+                        comunicaremos para continuar<br>
+                        el proceso
+                    </p>
+                </div>
+              </div>
         </div>
-        <form class="froms" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
-            method="POST">
-            <input type=hidden name="oid" value="00DHs000000Q2n0">
-            <input type=hidden name="retURL" value="">
-            <label for="first_name">First Name</label>
-            <input id="first_name" maxlength="40" placeholder="NOMBRES" name="first_name" size="20" type="text" /><br>
-            <label for="last_name">Last Name</label>
-            <input id="last_name" placeholder="APELLIDOS" maxlength="80" name="last_name" size="20" type="text" /><br>
+        <div id="on" class="on">
+            <div class="caja">
+                <div class="cajauno">
+                    <h2>Con el objetivo de recaudar fondos realizamos la organización de eventos sociales, culturales y
+                        deportivos y contamos con el acompañamiento de colaboradores, quienes unen sus esfuerzos para
+                        hacerlos posibles.</h2>
+                </div>
+                <div class="cajados"><img
+                        src="https://trello.com/1/cards/64754beca91a2e82e5169edf/attachments/647e69932c75ce915032bcd3/previews/647e69942c75ce915032bdfb/download/imagen.png"
+                        alt="ong"></div>
+            </div>
+            <form class="froms" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
+                method="POST">
+                <label for="first_name">First Name</label>
+                <input id="first_name" maxlength="40" placeholder="NOMBRES" name="first_name" size="20"
+                    type="text" /><br>
+                <label for="last_name">Last Name</label>
+                <input id="last_name" placeholder="APELLIDOS" maxlength="80" name="last_name" size="20"
+                    type="text" /><br>
+                <label for="email">Email</label>
+                <input id="email" placeholder="CORREO" maxlength="80" name="email" size="20" type="text" /><br>
 
-            <label for="email">Email</label>
-            <input id="email" placeholder="CORREO" maxlength="80"  name="email" size="20" type="text" /><br>
+                <label for="phone">Phone</label>
+                <input id="phone" placeholder="TELEFONO" maxlength="40" name="phone" size="20" type="text" /><br>
 
-            <label for="phone">Phone</label>
-            <input id="phone" placeholder="TELEFONO" maxlength="40" name="phone" size="20" type="text" /><br>
+                <label for="mobile">Mobile</label>
+                <input id="mobile" placeholder="CELULAR" maxlength="40" name="mobile" size="20" type="text" /><br>
 
-            <label for="mobile">Mobile</label>
-            <input id="mobile" placeholder="CELULAR" maxlength="40" name="mobile" size="20" type="text" /><br>
+                <label for="country">Country</label>
+                <input id="country" placeholder="Pais" maxlength="40" name="country" size="20" type="text" /><br>
 
-            <label for="country">Country</label>
-            <input id="country" placeholder="Pais" maxlength="40" name="country" size="20" type="text" /><br>
+                <label for="city">City</label>
+                <input id="city" placeholder="Ciudad" maxlength="40" name="city" size="20" type="text" /><br>
 
-            <label for="city">City</label>
-            <input id="city" placeholder="Ciudad" maxlength="40" name="city" size="20" type="text" /><br>
+                <label for="state">State/Province</label>
+                <input id="state" placeholder="Provincia O Estado" maxlength="20" name="state" size="20"
+                    type="text" /><br>
 
-            <label for="state">State/Province</label>
-            <input id="state" placeholder="Provincia O Estado" maxlength="20" name="state" size="20"
-                type="text" /><br>
+                <label for="zip">Zip</label>
+                <input id="zip" maxlength="20" placeholder="código postal" name="zip" size="20" type="text" /><br>
 
-            <label for="zip">Zip</label>
-            <input id="zip" maxlength="20"  placeholder="código postal" name="zip" size="20" type="text" /><br>
+                <label for="street">Street</label>
+                <textarea name="street" placeholder="Calle"></textarea><br>
 
-            <label for="street">Street</label>
-            <textarea name="street" placeholder="Calle" ></textarea><br>
+                <label for="salutation">Salutation</label>
+                Salutation:<select id="salutation" class="selectores" name="salutation">
+                    <option value="">--None--</option>
+                    <option value="Mr.">Mr.</option>
+                    <option value="Ms.">Ms.</option>
+                    <option value="Mrs.">Mrs.</option>
+                    <option value="Dr.">Dr.</option>
+                    <option value="Prof.">Prof.</option>
+                </select><br>
 
-            <label for="salutation" >Salutation</label>
-            Salutation:<select id="salutation" class="selectores" name="salutation">
-                <option value="">--None--</option>
-                <option value="Mr.">Mr.</option>
-                <option value="Ms.">Ms.</option>
-                <option value="Mrs.">Mrs.</option>
-                <option value="Dr.">Dr.</option>
-                <option value="Prof.">Prof.</option>
-            </select><br>
+                Type of Donation:<select id="00NHs00000CXpwe" class="selectores" name="00NHs00000CXpwe"
+                    title="Type of Donation">
+                    <option value="">--None--</option>
+                    <option value="Monetary">Monetary</option>
+                    <option value="food">food</option>
+                    <option value="clothes">clothes</option>
+                    <option value="toys">toys</option>
+                </select><br>
 
-            Type of Donation:<select id="00NHs00000CXpwe" class="selectores" name="00NHs00000CXpwe" title="Type of Donation">
-                <option value="">--None--</option>
-                <option value="Monetary">Monetary</option>
-                <option value="food">food</option>
-                <option value="clothes">clothes</option>
-                <option value="toys">toys</option>
-            </select><br>
+                Type of Donor:<select id="00NHs00000CXpwt" class="selectores" name="00NHs00000CXpwt"
+                    title="Type of Donor">
+                    <option value="">--None--</option>
+                    <option value="Family">Family</option>
+                    <option value="Company">Company</option>
+                </select><br>
 
-            Type of Donor:<select id="00NHs00000CXpwt" class="selectores" name="00NHs00000CXpwt" title="Type of Donor">
-                <option value="">--None--</option>
-                <option value="Family">Family</option>
-                <option value="Company">Company</option>
-            </select><br>
+                <label for="description">Description</label>
 
-            <label for="description">Description</label>
-            <textarea placeholder="Descripcion" name="description"></textarea><br>
+                <textarea placeholder="Descripcion" name="description"></textarea><br>
 
-            <input type="submit" class="btn" name="submit">
+                <input type="submit" class="btn" id="btn" name="submit">
+            </form>
+        </div>
 
-        </form>
     </main>
     <footer>
         <div class="footer-icons">
@@ -118,11 +146,12 @@
         </div>
         <div class="finfooter">
             <h3>
-                <p>Copyright &copy; 
-                <span id="copi"></span>
-                 fundacion GUAY
-                 - Todos
-                Los Derechos Reservados</p>
+                <p>Copyright &copy;
+                    <span id="copi"></span>
+                    fundacion GUAY
+                    - Todos
+                    Los Derechos Reservados
+                </p>
             </h3>
         </div>
     </footer>

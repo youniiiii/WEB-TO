@@ -187,3 +187,45 @@ footer {
 }
 
 /*johnCH estuvo aqui*/
+
+/*css de page*/
+.main_page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.div_page{
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  font-size: 400%;
+}
+
+.div2_page{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.txt_page{
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 37%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+
+.p_page{
+  background: rgba(0,0,0,0);
+  color: black;
+  font-size: 150%;
+  transform: rotate(1.969turn);
+}
+.none{
+  display:none;
+}
