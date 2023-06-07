@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Aqui va la description de la pagina" />
@@ -45,7 +45,7 @@
                         el proceso
                     </p>
                 </div>
-              </div>
+            </div>
         </div>
         <div id="on" class="on">
             <div class="caja">
@@ -58,71 +58,66 @@
                         src="https://trello.com/1/cards/64754beca91a2e82e5169edf/attachments/647e69932c75ce915032bcd3/previews/647e69942c75ce915032bdfb/download/imagen.png"
                         alt="ong"></div>
             </div>
+
+
+
             <form class="froms" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
                 method="POST">
-                <label for="first_name">First Name</label>
-                <input id="first_name" maxlength="40" placeholder="NOMBRES" name="first_name" size="20"
-                    type="text" /><br>
-                <label for="last_name">Last Name</label>
-                <input id="last_name" placeholder="APELLIDOS" maxlength="80" name="last_name" size="20"
-                    type="text" /><br>
-                <label for="email">Email</label>
-                <input id="email" placeholder="CORREO" maxlength="80" name="email" size="20" type="text" /><br>
 
-                <label for="phone">Phone</label>
-                <input id="phone" placeholder="TELEFONO" maxlength="40" name="phone" size="20" type="text" /><br>
+                <input type=hidden name="oid" value="00DHs000000Q2n0">
+                <input type=hidden name="retURL" value="https://youniiiii.github.io/pages/">
 
-                <label for="mobile">Mobile</label>
-                <input id="mobile" placeholder="CELULAR" maxlength="40" name="mobile" size="20" type="text" /><br>
+                <label for="first_name">Nombre</label><input id="first_name" placeholder="NOMBRES" maxlength="40"
+                    name="first_name" size="20" type="text" required /><br>
 
-                <label for="country">Country</label>
-                <input id="country" placeholder="Pais" maxlength="40" name="country" size="20" type="text" /><br>
+                <label for="last_name">Apellidos</label><input id="last_name" placeholder="APELLIDOS" maxlength="80"
+                    name="last_name" size="20" type="text" required /><br>
 
-                <label for="city">City</label>
-                <input id="city" placeholder="Ciudad" maxlength="40" name="city" size="20" type="text" /><br>
+                <label for="email">Correo electrónico</label>
+                <input id="email" maxlength="80" name="email" placeholder="Correo electrónico" size="20" type="email" x-moz-errormessage="Por favor, especifique una dirección de correo válida." required/><br>
 
-                <label for="state">State/Province</label>
-                <input id="state" placeholder="Provincia O Estado" maxlength="20" name="state" size="20"
-                    type="text" /><br>
+                <label for="mobile">Móvil</label>
+                <input id="mobile" maxlength="40" name="mobile" size="20"
+                    type="tel" placeholder="Móvil" required/><br>
 
-                <label for="zip">Zip</label>
-                <input id="zip" maxlength="20" placeholder="código postal" name="zip" size="20" type="text" /><br>
+                <label for="state">Estado/Provincia</label>
+                <input id="state" maxlength="20" name="state"placeholder="Estado/Provincia" size="20"
+                    type="text" required/><br>
 
-                <label for="street">Street</label>
-                <textarea name="street" placeholder="Calle"></textarea><br>
+                <label for="city">Ciudad</label>
+                <input id="city" maxlength="40" name="city" placeholder="Ciudad" size="20" type="text" required /><br>
+                <label for="street">Calle</label>
+                <textarea name="street" placeholder="Calle" required></textarea><br>
+                <label for="zip">Código postal</label>
+                <input id="zip" maxlength="20" name="zip" size="20"
+                    type="text" placeholder="Código postal" required/><br>
 
-                <label for="salutation">Salutation</label>
-                Salutation:<select id="salutation" class="selectores" name="salutation">
-                    <option value="">--None--</option>
-                    <option value="Mr.">Mr.</option>
-                    <option value="Ms.">Ms.</option>
-                    <option value="Mrs.">Mrs.</option>
-                    <option value="Dr.">Dr.</option>
-                    <option value="Prof.">Prof.</option>
-                </select><br>
-
-                Type of Donation:<select id="00NHs00000CXpwe" class="selectores" name="00NHs00000CXpwe"
-                    title="Type of Donation">
-                    <option value="">--None--</option>
+                Type of Donation:<select id="00NHs00000CXpwe" class="selectores" name="00NHs00000CXpwe" title="Type of Donation">
+                    <option value="">--Ninguno--</option>
                     <option value="Monetary">Monetary</option>
                     <option value="food">food</option>
                     <option value="clothes">clothes</option>
                     <option value="toys">toys</option>
                 </select><br>
 
-                Type of Donor:<select id="00NHs00000CXpwt" class="selectores" name="00NHs00000CXpwt"
-                    title="Type of Donor">
-                    <option value="">--None--</option>
+                Type of Donor:<select id="00NHs00000CXpwt"class="selectores" name="00NHs00000CXpwt" title="Type of Donor">
+                    <option value="">--Ninguno--</option>
                     <option value="Family">Family</option>
                     <option value="Company">Company</option>
                 </select><br>
 
-                <label for="description">Description</label>
+                <label for="description">Descripción</label>
+                <textarea name="description"placeholder="Descripción" required></textarea><br>
 
-                <textarea placeholder="Descripcion" name="description"></textarea><br>
+                <input type="submit" id="btn" class="btn" name="submit">
 
-                <input type="submit" class="btn" id="btn" name="submit">
             </form>
+
+
+
+
+
+
         </div>
 
     </main>
