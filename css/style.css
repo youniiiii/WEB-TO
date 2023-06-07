@@ -144,12 +144,14 @@ h2 {
   margin: 3%;
 
 }
-
+.cajados img{
+  box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
+  -webkit-box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
+  -moz-box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
+}
 li img , img {
   border-radius: 100%;
-  box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
- -webkit-box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
- -moz-box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
+ 
 }
 main{
   display: flex;
