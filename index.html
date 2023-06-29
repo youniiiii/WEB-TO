@@ -18,15 +18,43 @@
 <body>
     <main>
 
-                <img src="./img/logotipo 1.png" alt="" width="200px" height="200px">
-                <h1>Muchas gracias por tu aporte</h1>
-                <h2>Uno de nuestros colaboradores
-                    se pondra en contacto contigo para 
-                    gestionar la donacion.
-                    Puedes visitar nuestras redes sociales para estar al pendiente de nuestro trabajo.</h2>
+        <div class="caja">
+            <div class="cajauno"><img src="./img/logotipo 1.png" alt="">
+                <h2>Con el objetivo de recaudar fondos realizamos la organización de eventos sociales, culturales y
+                    deportivos y contamos con el acompañamiento de colaboradores, quienes unen sus esfuerzos para
+                    hacerlos posibles.</h2>
+            </div>
+            <div class="cajados">
+                <img src="./img/OrganDonation_share 1.png" alt="">
+            </div>
+        </div>
+
+
+
+        <form class="froms" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
+            method="POST">
+
+            <input type=hidden name="oid" value="00DHs000000Q2n0">
+            <input type=hidden name="retURL" value="https://youniiiii.github.io/pages/">
+
+            <label for="first_name">Nombre</label><input id="first_name" placeholder="Nombre" maxlength="40"
+                name="first_name" size="20" type="text" required /><br>
+
+            <label for="last_name">Apellidos</label><input id="last_name" placeholder="Apellidos" maxlength="80"
+                name="last_name" size="20" type="text" required /><br>
+
+            <label for="email">Correo electrónico</label>
+            <input id="email" maxlength="80" name="email" placeholder="Correo electrónico" size="20" type="text" /><br>
+
+            <label for="mobile">Móvil</label>
+            <input id="mobile" maxlength="40" name="mobile" size="20" type="text" placeholder="Móvil" required />
+
+            <input type="submit" id="btn" class="btn" name="submit">
+
+        </form>
     </main>
     <footer>
-        <div class="redes">
+        <div>
              <img src="./img/facebook 1.png" alt="">
             <img src="./img/instagram 1.png" alt="">
             <img src="./img/whatsapp 1.png" alt="">

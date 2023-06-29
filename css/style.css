@@ -16,21 +16,109 @@ body {
   background-attachment: fixed;
 }
 
-h2{
-  width: 50%;
-  height: 70%;
-}
-h1{
-  margin: 3%;
-}
-main{
+
+/* formulario joni */
+.froms {
+  background: rgba(42, 75, 99, 0.4);
   display: flex;
   flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  margin: 5%;
+  padding: 6px;
+ border-radius: 10%;
+ box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
+ -webkit-box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
+ -moz-box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
+}
+
+
+input,
+textarea {
+  width: 70%;
+  height: 39px;
+  border: 1px solid #000000;
+  text-align: center;
   color: #000000;
-   margin: 10%;
+  background: rgba(217, 217, 217, 1);
+  font-family: 'Roboto Condensed', sans-serif;
+  border-radius: 65px 65px 65px 65px / 60px 60px 60px 60px;
+}
+
+textarea {
+  text-align: center center;
+  height:auto;
+  width: 70%;
+  resize: none;
+}
+
+.selectores {
+  border-radius: 65px 65px 65px 65px / 60px 60px 60px 60px;
+  display: block;
+  background-color: transparent;
+  color: #000000;
+  width: 70%;
+  border: 1px solid #000000;
+  text-align: center;
+  font-family: 'Roboto Condensed';
+    font-size: large;
+}
+
+.btn {
+  background-color:transparent;
+  border: 2px solid #000000;
+  border-radius: 30%;
+  padding: 2px;
+  cursor: pointer;
+  width: 10%;
+}
+.btn:hover , input:hover , textarea:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.caja {
+  background: rgba(47, 113, 101, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+flex-direction: row;
+  height: 30%;
+  width: 100%;
+  margin:0%;
+}
+
+.cajauno {
+  width: auto;
+  margin: 3%;
+}
+
+h2 {
+  margin: 1%;
+  padding: 2%;
+ 
+}
+
+.cajados {
+  background-color: transparent;
+  border-radius: 100%;
+  margin: 3%;
+
+}
+.cajados img{
+  box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
+  -webkit-box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
+  -moz-box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
+}
+
+main{
+  display: flex;
+  color: #ffffff;
+  flex-direction: row-reverse;
 }
 /*johnCH estuvo aqui*/
 
@@ -50,11 +138,3 @@ footer {
 .finfooter{
   color: black;
 }
-.redes img:hover{
-   border-radius: 70%;
-   filter: blur(0.33px) brightness(3) contrast(1.3) grayscale(0.85) hue-rotate(-249deg) saturate(3) sepia(0.02) ;
-  background: linear-gradient(to left,rgba(52, 34, 214, 0.4) 0%, rgba(9, 37, 158, 0.9) 100%);
-mix-blend-mode: multiply;
-cursor: pointer;}
-
-
