@@ -82,10 +82,9 @@ textarea {
 }
 
 .btn {
-  background-color:rgba(0, 144, 247, 0.4);
+  background-color:rgba(212, 177, 177, 0.4);
   border: 1px solid #ffffff;
-  border-radius: 60px 60px 60px 60px / 60px 60px 60px 60px ;
-  padding: 2px;
+ padding: 2px;
   cursor: pointer;
   width: 40%;
   height: 38PX;
@@ -121,7 +120,12 @@ text-align: center;
     align-content: center;
     align-items: center;
     justify-content: space-between;
-}
+    font-size: 39x;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    }
 
 h2 {
 font-size: 20px;
