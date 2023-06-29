@@ -4,6 +4,7 @@
 <head>
     <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Aqui va la description de la pagina" />
     <meta name="author"
@@ -30,28 +31,54 @@
         </div>
 
 
-
-        <form class="froms" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
-            method="POST">
-
-            <input type=hidden name="oid" value="00DHs000000Q2n0">
-            <input type=hidden name="retURL" value="https://youniiiii.github.io/pages/">
-
-            <label for="first_name">Nombre</label><input id="first_name" placeholder="Nombre" maxlength="40"
-                name="first_name" size="20" type="text" required /><br>
-
-            <label for="last_name">Apellidos</label><input id="last_name" placeholder="Apellidos" maxlength="80"
-                name="last_name" size="20" type="text" required /><br>
-
-            <label for="email">Correo electrónico</label>
-            <input id="email" maxlength="80" name="email" placeholder="Correo electrónico" size="20" type="text" /><br>
-
-            <label for="mobile">Móvil</label>
-            <input id="mobile" maxlength="40" name="mobile" size="20" type="text" placeholder="Móvil" required />
-
-            <input type="submit" id="btn" class="btn" name="submit">
-
-        </form>
+    <form class="froms"action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+    
+    <input type=hidden name="oid" value="00DHs000000Q2n0">
+    <input type=hidden name="retURL" value="https://youniiiii.github.io/pages/">
+    
+    <legend> Haz tu donacion</legend>
+    <label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+    
+    <label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+    
+    <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+    
+    <label for="mobile">Mobile</label><input  id="mobile" maxlength="40" name="mobile" size="20" type="text" /><br>
+    
+    Provincia:<select  class="sidebar-box"  id="00NHs00000G7cSD" name="00NHs00000G7cSD" title="Provincia"><option value=""><span>opciones</span></option><option value="Buenos Aires">Buenos Aires</option>
+    <option value="Catamarca">Catamarca</option>
+    <option value="Chaco">Chaco</option>
+    <option value="Chubut">Chubut</option>
+    <option value="Córdoba">Córdoba</option>
+    <option value="Corrientes">Corrientes</option>
+    <option value="Entre Ríos">Entre Ríos</option>
+    <option value="Formosa">Formosa</option>
+    <option value="Jujuy">Jujuy</option>
+    <option value="La Pampa">La Pampa</option>
+    <option value="La Rioja">La Rioja</option>
+    <option value="Mendoza">Mendoza</option>
+    <option value="Misiones">Misiones</option>
+    <option value="Neuquén">Neuquén</option>
+    <option value="Río Negro">Río Negro</option>
+    <option value="Salta">Salta</option>
+    <option value="San Juan">San Juan</option>
+    <option value="San Luis">San Luis</option>
+    <option value="Santa Cruz">Santa Cruz</option>
+    <option value="Santa Fe">Santa Fe</option>
+    <option value="Santiago del Estero">Santiago del Estero</option>
+    <option value="Tierra del Fuego">Tierra del Fuego</option>
+    <option value="Tucumán">Tucumán</option>
+    </select><br>
+    
+    Type of Donation:<select class="sidebar-box" id="00NHs00000CXpwe" name="00NHs00000CXpwe" title="Type of Donation"><option value=""><span>opciones</span></option><option value="Monetary">Monetary</option>
+    <option value="food">food</option>
+    <option value="clothes">clothes</option>
+    <option value="toys">toys</option>
+    </select><br>
+    
+    <input type="submit" id="btn" class="btn" name="submit">
+    
+    </form>
     </main>
     <footer>
         <div>

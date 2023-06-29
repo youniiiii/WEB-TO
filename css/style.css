@@ -68,12 +68,13 @@ textarea {
 }
 
 .btn {
-  background-color:transparent;
-  border: 2px solid #000000;
-  border-radius: 30%;
+  background-color:rgba(0, 144, 247, 0.4);
+  border: 1px solid #ffffff;
+  border-radius: 60px 60px 60px 60px / 60px 60px 60px 60px ;
   padding: 2px;
   cursor: pointer;
-  width: 10%;
+  width: 40%;
+  height: 38PX;
 }
 .btn:hover , input:hover , textarea:hover{
   background-color: #ffffff;
@@ -93,8 +94,13 @@ flex-direction: row;
 }
 
 .cajauno {
+  display: flex;
   width: auto;
   margin: 3%;
+  flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
 h2 {
@@ -137,4 +143,27 @@ footer {
 }
 .finfooter{
   color: black;
+}
+
+
+span{
+  background-color: darkgrey;
+  color: #000000;
+  margin-bottom: 5%;
+  font-size: 13PX;
+}
+option{
+  width: 200PX;
+}
+
+.sidebar-box{  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-direction: row-reverse;
+  text-align: center;
+  border-radius: 65px 65px 65px 65px / 60px 60px 60px 60px;
+background-color: rgb(141, 141, 141);
+width: 70%;
 }
