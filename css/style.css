@@ -3,268 +3,58 @@
 * {
   margin: 0%;
   padding: 0%;
-  font-family: 'Jost', sans-serif;
-  color: #000000;
+   font-family: 'Roboto Condensed', sans-serif;
+
 }
 
-
-/* BACKGROUND */
-
-#bg {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-}
-
-#bg canvas {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-/*agregado por johnCH para probar el footer*/
-.cuerpo {
-  min-height: 100%;
-  margin-bottom: -100px;
-}
-
-/*agregado por johnCH para probar el footer*/
-
-h1 {
-  font-family: 'Abril Fatface', cursive;
-  text-transform: uppercase;
-  color: #000000;
-}
 
 /* nav de  el form */
-nav {
-  background-color: #47a7e3;
-  width: 100%;
-  height: 60px;
-}
 body {
-  background-image: url(https://cdn.leonardo.ai/users/f444a8b1-8ea6-4e4b-be81-532265b41633/generations/a5811c45-a7d7-4763-a0b4-ac4dc0ef5ea7/variations/Default_Arti_surreal_anime_A_lighten_iridescent_butterfly_surr_0_a5811c45-a7d7-4763-a0b4-ac4dc0ef5ea7_1.jpg);
+   background-image: url(../img/light-blue-soft-background-with-diagonal-lines-free-vector\ 2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-/* nav de  el form */
 
-ol {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-
-li {
-  color: #1d242b;
-  list-style: none;
-  margin: 0px 10px 10px 0px;
-}
-
-.listInicio {
-  display: flex;
-}
-
-.logo {
-  border-radius: 100%;
-  filter: drop-shadow(0 0 0 2px rgb(0, 0, 0));
-}
-
-/* formulario joni */
-.froms {
-  
-  background-color:transparent;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-content: center;
-  align-items: center;
-  justify-content: space-around;
+h2{
   width: 50%;
-  margin: 5%;
-  padding: 6px;
- border-radius: 10%;
- box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
- -webkit-box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
- -moz-box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
+  height: 70%;
 }
-
-label {
-  display: none;
-}
-
-input,
-textarea {
-  width: 70%;
-  border: 3px solid #000000;
-  text-align: center;
-  color: #000000;
-  background-color: transparent;
-  font-family: 'Roboto Condensed', sans-serif;
-  border-radius: 65px 65px 65px 65px / 60px 60px 60px 60px;
-}
-
-textarea {
-  text-align: center center;
-  height:auto;
-  width: 70%;
-  resize: none;
-}
-
-.selectores {
-  border-radius: 65px 65px 65px 65px / 60px 60px 60px 60px;
-  display: block;
-  background-color: transparent;
-  color: #000000;
-  width: 70%;
-  border: 3px solid #000000;
-  text-align: center;
-  font-family: 'Roboto Condensed';
-    font-size: large;
-}
-
-::placeholder {
-  text-align: center;
-  color: #000000;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-.btn {
-  background-color:transparent;
-  border: 2px solid #000000;
-  border-radius: 30%;
-  padding: 2px;
-  cursor: pointer;
-  width: 10%;
-}
-.btn:hover , input:hover , textarea:hover{
-  background-color: #ffffff;
-  color: #000000;
-}
-
-.caja {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  align-content: center;
-  flex-direction: row-reverse;
-  flex-wrap: nowrap;
-  height: 30%;
-  width: 100%;
-  margin:0%;
-}
-
-.cajauno {
-  width: auto;
-  border: 2px solid #000000;
+h1{
   margin: 3%;
-}
-
-h2 {
-  margin: 1%;
-  padding: 2%;
-  border: 6px solid #000000;
-}
-
-.cajados {
-  background-color: transparent;
-  border-radius: 100%;
-  margin: 3%;
-
-}
-.cajados img{
-  box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
-  -webkit-box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
-  -moz-box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
-}
-li img , img {
-  border-radius: 100%;
- 
 }
 main{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
+  color: #000000;
+   margin: 10%;
 }
 /*johnCH estuvo aqui*/
 
 footer {
+  color: black;
   width: 100%;
-  background-color: transparent;
-  text-align: center;
-  height: 60px;
-  background-color: #5695e7;
-}
-
-.footer-icons {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
-}
-
-.footer-icons .left-icon {
-  margin-right: auto;
-}
-
-.footer-icons img {
-  width: 30px;
-  height: 30px;
-  filter: hue-rotate(360deg);
-}
-
-.finfooter,p,h3 {
-  color: #000000;
-  width: 100%;
+  flex-wrap: nowrap;
+  background-color: white;
   text-align: center;
+  height: 60px;
+ 
 }
-
-/*johnCH estuvo aqui*/
-
-/*css de page*/
-.main_page{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.div_page{
-  display: flex;
-  justify-content: center;
-  width: 70%;
-  font-size: 400%;
-}
-
-.div2_page{
-  position: relative;
-  display: inline-block;
-  text-align: center;
-}
-
-.txt_page{
-  background: rgba(0,0,0,0);
-  position: absolute;
-  top: 37%;
-  left: 48%;
-  transform: translate(-50%, -50%);
-}
-
-.p_page{
-  background: rgba(0,0,0,0);
+.finfooter{
   color: black;
-  font-size: 150%;
-  transform: rotate(1.969turn);
 }
-.none{
-  display:none;
-}
+.redes img:hover{
+   border-radius: 70%;
+   filter: blur(0.33px) brightness(3) contrast(1.3) grayscale(0.85) hue-rotate(-249deg) saturate(3) sepia(0.02) ;
+  background: linear-gradient(to left,rgba(52, 34, 214, 0.4) 0%, rgba(9, 37, 158, 0.9) 100%);
+mix-blend-mode: multiply;
+cursor: pointer;}
+
+
