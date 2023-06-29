@@ -105,6 +105,12 @@ flex-direction: row;
   height: 100%;
   width: 100%;
   margin:0%;
+font-size: 35px;
+font-weight: 700;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: center;
+
 }
 
 .cajauno {
@@ -118,7 +124,11 @@ flex-direction: row;
 }
 
 h2 {
-  margin: 1%;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
   padding: 2%;
  
 }
