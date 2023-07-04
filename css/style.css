@@ -3,83 +3,28 @@
 * {
   margin: 0%;
   padding: 0%;
-  font-family: 'Jost', sans-serif;
-  color: #000000;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #ffffff;
 }
 
 
-/* BACKGROUND */
-
-#bg {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-}
-
-#bg canvas {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
 /*agregado por johnCH para probar el footer*/
 .cuerpo {
   min-height: 100%;
   margin-bottom: -100px;
 }
 
-/*agregado por johnCH para probar el footer*/
 
-h1 {
-  font-family: 'Abril Fatface', cursive;
-  text-transform: uppercase;
-  color: #000000;
-}
-
-/* nav de  el form */
-nav {
-  background-color: #47a7e3;
-  width: 100%;
-  height: 60px;
-}
 body {
-  background-image: url(https://cdn.leonardo.ai/users/f444a8b1-8ea6-4e4b-be81-532265b41633/generations/a5811c45-a7d7-4763-a0b4-ac4dc0ef5ea7/variations/Default_Arti_surreal_anime_A_lighten_iridescent_butterfly_surr_0_a5811c45-a7d7-4763-a0b4-ac4dc0ef5ea7_1.jpg);
+  background-image: url(../img/fond.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-/* nav de  el form */
-
-ol {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-
-li {
-  color: #1d242b;
-  list-style: none;
-  margin: 0px 10px 10px 0px;
-}
-
-.listInicio {
-  display: flex;
-}
-
-.logo {
-  border-radius: 100%;
-  filter: drop-shadow(0 0 0 2px rgb(0, 0, 0));
-}
 
 /* formulario joni */
 .froms {
-  
-  background-color:transparent;
+background: rgba(42, 75, 99, 0.4);
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -87,12 +32,12 @@ li {
   align-items: center;
   justify-content: space-around;
   width: 50%;
-  margin: 5%;
+  margin: 2%;
   padding: 6px;
- border-radius: 10%;
- box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
- -webkit-box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
- -moz-box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
+  border-radius: 10%;
+  box-shadow: -8px 11px 9px 4px rgba(7, 17, 27, 0.4);
+  -webkit-box-shadow: -8px 11px 9px 4px rgba(7, 17, 27, 0.4);
+  -moz-box-shadow: -8px 11px 9px 4px rgba(7, 17, 27, 0.4);
 }
 
 label {
@@ -101,7 +46,8 @@ label {
 
 input,
 textarea {
-  width: 70%;
+  width: 431px;
+  height: 39px;
   border: 3px solid #000000;
   text-align: center;
   color: #000000;
@@ -112,7 +58,7 @@ textarea {
 
 textarea {
   text-align: center center;
-  height:auto;
+  height: auto;
   width: 70%;
   resize: none;
 }
@@ -123,10 +69,10 @@ textarea {
   background-color: transparent;
   color: #000000;
   width: 70%;
-  border: 3px solid #000000;
+  border: 3px solid #ff0000;
   text-align: center;
   font-family: 'Roboto Condensed';
-    font-size: large;
+  font-size: large;
 }
 
 ::placeholder {
@@ -136,14 +82,17 @@ textarea {
 }
 
 .btn {
-  background-color:transparent;
-  border: 2px solid #000000;
+  background-color: transparent;
+  border: 2px solid #a9a9a9;
   border-radius: 30%;
   padding: 2px;
   cursor: pointer;
   width: 10%;
 }
-.btn:hover , input:hover , textarea:hover{
+
+.btn:hover,
+input:hover,
+textarea:hover {
   background-color: #ffffff;
   color: #000000;
 }
@@ -153,118 +102,57 @@ textarea {
   align-items: center;
   justify-content: space-around;
   align-content: center;
-  flex-direction: row-reverse;
   flex-wrap: nowrap;
-  height: 30%;
+  height: 533px;
   width: 100%;
-  margin:0%;
+  margin: 0%;
+background: rgba(47, 113, 101, 0.4);
+
 }
 
 .cajauno {
-  width: auto;
-  border: 2px solid #000000;
-  margin: 3%;
+  width: 100%;
+  height: 100%;
+  margin: 1%;
 }
 
 h2 {
   margin: 1%;
   padding: 2%;
-  border: 6px solid #000000;
+  text-align: center;
 }
 
 .cajados {
   background-color: transparent;
   border-radius: 100%;
-  margin: 3%;
-
-}
-.cajados img{
-  box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
-  -webkit-box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
-  -moz-box-shadow: -8px 11px 9px 4px rgba(7,17,27,0.4);
-}
-li img , img {
-  border-radius: 100%;
+  margin: 1%;
+  height: 100%;
+  width: 100%;
  
 }
-main{
-  display: flex;
-  justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-/*johnCH estuvo aqui*/
 
-footer {
+.cajados img {
   width: 100%;
-  background-color: transparent;
-  text-align: center;
-  height: 60px;
-  background-color: #5695e7;
-}
-
-.footer-icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer-icons .left-icon {
-  margin-right: auto;
-}
-
-.footer-icons img {
-  width: 30px;
-  height: 30px;
-  filter: hue-rotate(360deg);
-}
-
-.finfooter,p,h3 {
-  color: #000000;
-  width: 100%;
-  text-align: center;
-}
-
-/*johnCH estuvo aqui*/
-
-/*css de page*/
-.main_page{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   height: 100%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+
 }
 
-.div_page{
+
+main {
+
   display: flex;
+  flex-direction: row-reverse;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2%;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  width: 70%;
-  font-size: 400%;
-}
-
-.div2_page{
-  position: relative;
-  display: inline-block;
-  text-align: center;
-}
-
-.txt_page{
-  background: rgba(0,0,0,0);
-  position: absolute;
-  top: 37%;
-  left: 48%;
-  transform: translate(-50%, -50%);
-}
-
-.p_page{
-  background: rgba(0,0,0,0);
-  color: black;
-  font-size: 150%;
-  transform: rotate(1.969turn);
-}
-.none{
-  display:none;
+  align-items: center;
+  align-content: stretch;
+  flex-wrap: nowrap;
 }
