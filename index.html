@@ -4,6 +4,7 @@
 <head>
     <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Aqui va la description de la pagina" />
     <meta name="author"
@@ -16,99 +17,94 @@
 </head>
 
 <body>
-
-
     <main>
+        <form class="froms" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
+            method="POST">
+            <input type=hidden name="oid" value="00DHs000000Q2n0">
+            <input type=hidden name="retURL" value="https://youniiiii.github.io/pages/">
+            <legend>
+                <h2>HAZ TU DONACION</h2>
+            </legend>
+            <label for="first_name">Nombre</label><input id="first_name" maxlength="40" name="first_name" size="20"
+                type="text" /><br>
+            <label for="last_name">Apellido</label><input id="last_name" maxlength="80" name="last_name" size="20"
+                type="text" /><br>
+            <label for="email">Email</label><input id="email" maxlength="80" name="email" size="20" type="text" /><br>
+            <label for="mobile">Celular</label><input id="mobile" maxlength="40" name="mobile" size="20"
+                type="text" /><br>
+            <h2>Provincia:</h2><select class="sidebar-box" id="00NHs00000G7cSD" name="00NHs00000G7cSD"
+                title="Provincia">
+                <option value=""><span>Seleccione la provincia</span></option>
+                <option value="Buenos Aires">Buenos Aires</option>
+                <option value="Catamarca">Catamarca</option>
+                <option value="Chaco">Chaco</option>
+                <option value="Chubut">Chubut</option>
+                <option value="Córdoba">Córdoba</option>
+                <option value="Corrientes">Corrientes</option>
+                <option value="Entre Ríos">Entre Ríos</option>
+                <option value="Formosa">Formosa</option>
+                <option value="Jujuy">Jujuy</option>
+                <option value="La Pampa">La Pampa</option>
+                <option value="La Rioja">La Rioja</option>
+                <option value="Mendoza">Mendoza</option>
+                <option value="Misiones">Misiones</option>
+                <option value="Neuquén">Neuquén</option>
+                <option value="Río Negro">Río Negro</option>
+                <option value="Salta">Salta</option>
+                <option value="San Juan">San Juan</option>
+                <option value="San Luis">San Luis</option>
+                <option value="Santa Cruz">Santa Cruz</option>
+                <option value="Santa Fe">Santa Fe</option>
+                <option value="Santiago del Estero">Santiago del Estero</option>
+                <option value="Tierra del Fuego">Tierra del Fuego</option>
+                <option value="Tucumán">Tucumán</option>
+            </select><br>
 
+            <h2>Tipo De Donacion:</h2><select class="sidebar-box" id="00NHs00000CXpwe" name="00NHs00000CXpwe"
+                title="Type of Donation">
+                <option value=""><span>Seleccione el tipo de donacion</span></option>
+                <option value="Monetary">MONETARIO</option>
+                <option value="food">COMIDA</option>
+                <option value="clothes">ROPA</option>
+                <option value="toys">JUGUETES</option>
+            </select><br>
+            <input type="submit" id="btn" class="btn" name="submit">
+        </form>
         <div class="caja">
-            <div class="cajauno display">
-                <img src="./img/logotipo 1.png" alt="ong">
-                <h2>Tu aporte
-                ayuda <br> a muchos
+            <div class="cajauno"><img src="./img/logotipo 1.png" alt="">
+                Tu aporte
+                ayuda a muchos
                 niños y niñas
-                del pais <br>
-                en su tratamiento.</h2>
+                del pais
+                en su tratamiento.
             </div>
             <div class="cajados">
-                <img src="./img/OrganDonation_share 1.jpg" alt="">
+                <img src="./img/OrganDonation_share 1.png" alt="">
             </div>
         </div>
 
 
 
-        <form class="froms" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
-            method="POST">
-
-            <input type=hidden name="oid" value="00DHs000000Q2n0">
-            <input type=hidden name="retURL" value="https://youniiiii.github.io/pages/">
-
-            <label for="first_name">Nombre</label><input id="first_name" placeholder="Nombre" maxlength="40"
-                name="first_name" size="20" type="text" required /><br>
-
-            <label for="last_name">Apellidos</label><input id="last_name" placeholder="Apellidos" maxlength="80"
-                name="last_name" size="20" type="text" required /><br>
-
-            <label for="email">Correo electrónico</label>
-            <input id="email" maxlength="80" name="email" placeholder="Correo electrónico" size="20" type="text" /><br>
-
-            <label for="mobile">Móvil</label>
-            <input id="mobile" maxlength="40" name="mobile" size="20" type="text" placeholder="Móvil" required /><br>
-
-            <label for="state">Estado/Provincia</label>
-            <input id="state" maxlength="20" name="state" placeholder="Estado/Provincia" size="20" type="text"
-                required /><br>
-
-            <label for="city">Ciudad</label>
-            <input id="city" maxlength="40" name="city" placeholder="Ciudad" size="20" type="text" required /><br>
-            <div class="none">
-                <label for="street">Calle</label>
-                <textarea name="street" placeholder="Calle"></textarea><br>
-            </div>
-
-            <label for="zip">Código postal</label>
-            <input id="zip" maxlength="20" name="zip" size="20" type="text" placeholder="Código postal" required /><br>
-
-            <h4>Type of Donation:</h4><select id="00NHs00000CXpwe" class="selectores" name="00NHs00000CXpwe"
-                title="Type of Donation">
-                <option value="">--Ninguno--</option>
-                <option value="Monetary">Monetary</option>
-                <option value="food">food</option>
-                <option value="clothes">clothes</option>
-                <option value="toys">toys</option>
-            </select><br>
-
-            <h4>Type of Donor:</h4><select id="00NHs00000CXpwt" class="selectores" name="00NHs00000CXpwt"
-                title="Type of Donor">
-                <option value="">--Ninguno--</option>
-                <option value="Family">Family</option>
-                <option value="Company">Company</option>
-            </select><br>
-
-            <label for="description">Descripción</label>
-            <textarea name="description" placeholder="Descripción" required></textarea><br>
-
-            <input type="submit" id="btn" class="btn" name="submit">
-
-        </form>
     </main>
-
     <footer>
-       
-            <h3>
-                <p>Copyright &copy;
-                    <span id="copi"></span>
-                    fundacion GUAY
-                    - Todos
-                    Los Derechos Reservados
-                </p>
-            </h3>
-            <div id="iconos">
-                <a href="https://www.facebook.com/"><img src="./img/facebook.png" alt="facebook"></a>
-                <a href="https://www.instagram.com/"><img src="./img/instagram.png" alt="instagram"></a>
-                <a href="https://www.twitter.com/"><img src="./img/twitter.png" alt="twitter"></a>
-                <a href="https://www.youtube.com/"><img src="./img/youtube.png" alt="youtube"></a>
-            </div>
-      
+        <div class="iniciofooter">
+            <a href="https://www.facebook.com/WinguOSC"><img src="./img/facebook 1.png" alt="">
+            </a>
+            <a href="https://www.instagram.com/winguweb/"><img src="./img/instagram 1.png" alt="">
+            </a> 
+<a href="https://twitter.com/desdewingu"><img src="./img/gorjeo 1.png" alt=""></a>
+
+            <img src="./img/whatsapp 1.png" alt="">
+        </div>
+
+        <div class="finfooter">
+            <p>Copyright &copy;
+                <span id="copi"></span>
+                fundacion GUAY
+                - Todos
+                Los Derechos Reservados
+            </p>
+        </div>
     </footer>
     <script src="./js/funcion.js"></script>
 </body>
