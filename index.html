@@ -2,9 +2,8 @@
 <html lang="en">
 
 <head>
-    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Aqui va la description de la pagina" />
     <meta name="author"
@@ -18,58 +17,74 @@
 
 <body>
     <main>
-        <form class="froms" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
-            method="POST">
-            <input type=hidden name="oid" value="00DHs000000Q2n0">
-            <input type=hidden name="retURL" value="https://youniiiii.github.io/pages/">
+
+<form  class="froms"   action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+    <input type=hidden name="oid" value="00DHs000000Q2n0">
+    <input type=hidden name="retURL" value="https://youniiiii.github.io/pages/">
             <legend>
                 <h2>HAZ TU DONACION</h2>
             </legend>
-            <label for="first_name">Nombre</label><input id="first_name" maxlength="40" name="first_name" size="20"
-                type="text" /><br>
-            <label for="last_name">Apellido</label><input id="last_name" maxlength="80" name="last_name" size="20"
-                type="text" /><br>
-            <label for="email">Email</label><input id="email" maxlength="80" name="email" size="20" type="text" /><br>
-            <label for="mobile">Celular</label><input id="mobile" maxlength="40" name="mobile" size="20"
-                type="text" /><br>
-            <h2>Provincia:</h2><select class="sidebar-box" id="00NHs00000G7cSD" name="00NHs00000G7cSD"
-                title="Provincia">
-                <option value=""><span>Seleccione la provincia</span></option>
-                <option value="Buenos Aires">Buenos Aires</option>
-                <option value="Catamarca">Catamarca</option>
-                <option value="Chaco">Chaco</option>
-                <option value="Chubut">Chubut</option>
-                <option value="Córdoba">Córdoba</option>
-                <option value="Corrientes">Corrientes</option>
-                <option value="Entre Ríos">Entre Ríos</option>
-                <option value="Formosa">Formosa</option>
-                <option value="Jujuy">Jujuy</option>
-                <option value="La Pampa">La Pampa</option>
-                <option value="La Rioja">La Rioja</option>
-                <option value="Mendoza">Mendoza</option>
-                <option value="Misiones">Misiones</option>
-                <option value="Neuquén">Neuquén</option>
-                <option value="Río Negro">Río Negro</option>
-                <option value="Salta">Salta</option>
-                <option value="San Juan">San Juan</option>
-                <option value="San Luis">San Luis</option>
-                <option value="Santa Cruz">Santa Cruz</option>
-                <option value="Santa Fe">Santa Fe</option>
-                <option value="Santiago del Estero">Santiago del Estero</option>
-                <option value="Tierra del Fuego">Tierra del Fuego</option>
-                <option value="Tucumán">Tucumán</option>
-            </select><br>
+    <label for="first_name">First Name</label><input id="first_name" maxlength="40" name="first_name" size="20"
+        type="text" /><br>
 
-            <h2>Tipo De Donacion:</h2><select class="sidebar-box" id="00NHs00000CXpwe" name="00NHs00000CXpwe"
-                title="Type of Donation">
-                <option value=""><span>Seleccione el tipo de donacion</span></option>
-                <option value="Monetary">MONETARIO</option>
-                <option value="food">COMIDA</option>
-                <option value="clothes">ROPA</option>
-                <option value="toys">JUGUETES</option>
-            </select><br>
-            <input type="submit" id="btn" class="btn" name="submit">
-        </form>
+    <label for="last_name">Last Name</label><input id="last_name" maxlength="80" name="last_name" size="20"
+        type="text" /><br>
+
+    <label for="email">Email</label><input id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+    <label for="mobile">Mobile</label><input id="mobile" maxlength="40" name="mobile" size="20" type="text" /><br>
+
+<h2>Provincia:</h2><select id="00NHs00000G7cSD" name="00NHs00000G7cSD" title="Provincia">
+        <option value="">--None--</option>
+        <option value="Buenos Aires">Buenos Aires</option>
+        <option value="Catamarca">Catamarca</option>
+        <option value="Chaco">Chaco</option>
+        <option value="Chubut">Chubut</option>
+        <option value="Córdoba">Córdoba</option>
+        <option value="Corrientes">Corrientes</option>
+        <option value="Entre Ríos">Entre Ríos</option>
+        <option value="Formosa">Formosa</option>
+        <option value="Jujuy">Jujuy</option>
+        <option value="La Pampa">La Pampa</option>
+        <option value="La Rioja">La Rioja</option>
+        <option value="Mendoza">Mendoza</option>
+        <option value="Misiones">Misiones</option>
+        <option value="Neuquén">Neuquén</option>
+        <option value="Río Negro">Río Negro</option>
+        <option value="Salta">Salta</option>
+        <option value="San Juan">San Juan</option>
+        <option value="San Luis">San Luis</option>
+        <option value="Santa Cruz">Santa Cruz</option>
+        <option value="Santa Fe">Santa Fe</option>
+        <option value="Santiago del Estero">Santiago del Estero</option>
+        <option value="Tierra del Fuego">Tierra del Fuego</option>
+        <option value="Tucumán">Tucumán</option>
+    </select><br>
+
+    <h2>Type of Donation:</h2><select id="00NHs00000CXpwe" name="00NHs00000CXpwe" title="Type of Donation">
+        <option value="">--None--</option>
+        <option value="Dinero">Dinero</option>
+        <option value="Alimentos">Alimento/s</option>
+        <option value="Prenda">Prenda/s</option>
+        <option value="Jugete">Jugete/s</option>
+    </select><br>
+
+<input type="submit" id="btn" class="btn" name="submit">
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div class="caja">
             <div class="cajauno"><img src="./img/logotipo 1.png" alt="">
                 Tu aporte
@@ -91,8 +106,8 @@
             <a href="https://www.facebook.com/WinguOSC"><img src="./img/facebook 1.png" alt="">
             </a>
             <a href="https://www.instagram.com/winguweb/"><img src="./img/instagram 1.png" alt="">
-            </a> 
-<a href="https://twitter.com/desdewingu"><img src="./img/gorjeo 1.png" alt=""></a>
+            </a>
+            <a href="https://twitter.com/desdewingu"><img src="./img/gorjeo 1.png" alt=""></a>
 
             <img src="./img/whatsapp 1.png" alt="">
         </div>
@@ -106,6 +121,7 @@
             </p>
         </div>
     </footer>
+
     <script src="./js/funcion.js"></script>
 </body>
 
